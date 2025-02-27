@@ -47,6 +47,9 @@ export default function Home() {
       <h1 className="text-3xl font-bold text-center mb-8">
         Nginx Config Generator
       </h1>
+      <p className="text-center text-red-500 dark:text-gray-400 mb-8">
+        Generate Nginx configuration files for your domain.
+      </p>
 
       <div className="grid gap-8 md:grid-cols-2">
         <Card>
